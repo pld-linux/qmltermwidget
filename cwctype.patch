@@ -1,0 +1,12 @@
+diff -up qmltermwidget-0.2.0/lib/TerminalCharacterDecoder.cpp.orig qmltermwidget-0.2.0/lib/TerminalCharacterDecoder.cpp
+--- qmltermwidget-0.2.0/lib/TerminalCharacterDecoder.cpp.orig	2018-11-24 22:06:16.000000000 +0100
++++ qmltermwidget-0.2.0/lib/TerminalCharacterDecoder.cpp	2023-09-18 13:45:42.497294172 +0200
+@@ -19,6 +19,8 @@
+     02110-1301  USA.
+ */
+ 
++#include <cwctype>
++
+ // Own
+ #include "TerminalCharacterDecoder.h"
+ 
