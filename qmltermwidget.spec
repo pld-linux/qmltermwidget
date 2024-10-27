@@ -1,13 +1,9 @@
-#
-# TODO:
-# - runtime Requires if any
-
 %define		qt_ver		5.15.2
 Summary:	QML port of qtermwidget
 Summary(pl.UTF-8):	Port komponentu qtermwidget do QML
 Name:		qmltermwidget
 Version:	0.2.0
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		X11/Libraries
 #Source0Download: https://github.com/Swordfish90/qmltermwidget/releases
