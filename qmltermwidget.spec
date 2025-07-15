@@ -40,7 +40,7 @@ Ten projekt to port QML komponentu qtermwidget.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %qmake_qt5
